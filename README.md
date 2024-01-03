@@ -1,7 +1,7 @@
 # FabiTravel
 
 ## Demo Link
-Access the Fabitravel website demo at [demo](screenshots/demo.mp4)
+Access the Fabitravel website demo at [demo](/demo.mp4)
 
 ## Table of Contents
 - [About The App](#about-the-app)
@@ -21,18 +21,18 @@ The app offers a range of travel deals and allows users to search for specific d
 ## Screenshots
 
 ### 1. Homepage Overview
-![Homepage](/homepage.png)
+![Homepage](/homepage.jpeg)
 
 ### 2. Search Functionality
-![Search](screenshots/search.png)
+![Search](screenshots/search.jpeg)
 
 ### 3. Navigation
 ![About Page](screenshots/about.png)
-![SignUp Page](screenshots/signup.png)
+![SignUp Page](screenshots/signup.jpeg)
 
 ### 4. Responsive Design
-![Desktop View](screenshots/desktop-view.png)
-![Mobile View](screenshots/mobile-view.png)
+![Desktop View](/desktop-view.png)
+![Mobile View](/mobile-view.png)
 
 
 ## Technologies
