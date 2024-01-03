@@ -1,16 +1,6 @@
-import FirstSection from "./FirstSection";
-import Navbar from "./Navbar";
-import { ContacForm } from "./ContacForm";
+import React from 'react';
+import '../App.css';
 
-import React from 'react'
-
-export const Contact = () => {
-  return (
-    <>
-      
-      <ContacForm/>
-      
-
-    </>
-  )
+export default function Contact() {
+  return <h1 className='contact'>CONTACT</h1>;
 }

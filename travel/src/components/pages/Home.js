@@ -7,12 +7,13 @@ import { Contact } from '../Contact';
 import Footer from '../Footer';
 
 
+
 function Home() {
   return (
     <>
       <FirstSection />
-      <Footer/>
       
+      <Footer/>      
       
       
       
