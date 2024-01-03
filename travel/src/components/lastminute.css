@@ -1,0 +1,90 @@
+.last-minute-offer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+   /* background-image: url("../../public/images/maldives_image.jpg");*/
+    height:100vh;
+    background-size: cover; 
+    backdrop-filter: blur(8px);
+}
+
+
+.last-minute-offer-items-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.last-item-container{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height:80vh;
+    background-color: rgba(205, 138, 112, 0.8);
+    border-radius: 10px;
+   
+    
+}
+.last-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    color:#f0f2f2
+}
+.last-item-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.last-title{
+    margin:7px 0px 0px;
+    font-size: 40px;
+}
+
+.last-percent{
+    margin: 14px 0px 0px;
+   font-size:  7em;
+   
+   
+}
+.last-text{
+    line-height: 2em;
+}
+.see-offer-btn{
+    background-color: #453f49;
+    height: 3em;
+    width: 8em;
+    border: none;
+    color: #f0f2f2;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.see-offer-btn:hover{
+    opacity: 0.6;
+}
+@media (max-width: 768px){
+    last-minute-offer-container{
+        height: auto;
+    }
+    .last-minute-offer-items-row{
+        flex-direction: column;
+        
+    }
+    .last-item{
+        
+        height: auto;
+        
+        
+    }
+    
+}
+

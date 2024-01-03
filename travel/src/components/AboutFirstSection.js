@@ -1,8 +1,10 @@
 import React from 'react'
+import { Reveal } from 'react-reveal'
 
 export const AboutFirstSection = () => {
   return (
     <>
+    <Reveal>
     <h1 className='about'>ABOUT</h1>
 
     <div className='about-content'>
@@ -33,7 +35,7 @@ export const AboutFirstSection = () => {
     <p className='testimonial-author'>- Satisfied Explorer</p>
   </div>
 </div>
-
+</Reveal>
     </>
   )
 }

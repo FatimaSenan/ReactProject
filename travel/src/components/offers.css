@@ -1,0 +1,27 @@
+.offers{
+    width: 100%;
+    padding:0px;
+    background-image: url("../../public/images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.offers-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offers-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.offers-title{
+    margin: 20px;
+    color: #fff;
+}
+ 

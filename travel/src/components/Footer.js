@@ -2,9 +2,11 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import { Reveal } from 'react-reveal';
 
 function Footer() {
   return (
+    <Reveal>
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
@@ -106,6 +108,7 @@ function Footer() {
         </div>
       </section>
     </div>
+    </Reveal>
   );
 }
 

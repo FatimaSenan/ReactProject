@@ -1,11 +1,12 @@
 import React from 'react'
 import './SignUp.css'
 import { FaUserAlt,FaLock } from "react-icons/fa";
+import { Reveal } from 'react-reveal';
 
 
 export const SignUp = () => {
   return (
-
+   <Reveal>
     <div className='body'>
         <div className='wrapper'>
         <form action=''>
@@ -35,7 +36,7 @@ export const SignUp = () => {
 
     </div>
     </div>
-
+    </Reveal>
 
   );
 }
