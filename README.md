@@ -21,7 +21,7 @@ The app offers a range of travel deals and allows users to search for specific d
 ## Screenshots
 
 ### 1. Homepage Overview
-![Homepage](screenshots/homepage.png)
+![Homepage](/homepage.png)
 
 ### 2. Search Functionality
 ![Search](screenshots/search.png)
