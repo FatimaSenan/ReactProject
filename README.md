@@ -28,7 +28,7 @@ The app offers a range of travel deals and allows users to search for specific d
 
 ### 3. Navigation
 ![About Page](screenshots/about.png)
-![Contact Page](screenshots/contact.png)
+![SignUp Page](screenshots/signup.png)
 
 ### 4. Responsive Design
 ![Desktop View](screenshots/desktop-view.png)
