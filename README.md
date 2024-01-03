@@ -1,4 +1,4 @@
-# Fabitravel
+# FabiTravel
 
 ## Demo Link
 Access the Fabitravel website demo at [demo](screenshots/demo.mp4)
