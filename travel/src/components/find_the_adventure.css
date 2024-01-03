@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+.find-background{
+    background-image: url("./images/palm_image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+    height: 50vh ;
+    
+}
+.find-container{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 80%;
+}
+.find-container-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+    width: 100%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #E5EFED;
+    
+}
+.find-the-adventure-text{
+    height: 45px;
+    font-size: 30px;
+   color:#CCD8B8;   
+    
+}
+.departure-input, .destination-input,.find-button{
+    height: 3rem;
+    width: 15rem;
+    font-size: 16px;
+    padding: 0px 5px;
+    
+    
+}
+.departure-input, .destination-input, .min-price-select, .max-price-select{
+    background-color: transparent;
+    border-color: #949C88;
+    color:#E5EFED;  
+    box-sizing: border-box;
+    
+}
+.departure-input:hover, .destination-input:hover, .min-price-select:hover, .max-price-select:hover{
+    border-color: #B67138;
+    transition: border-color 0.5s;
+    cursor: pointer;
+}
+.find-button:hover{
+    opacity: 0.7;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+.min-price-select, .max-price-select{
+    height: 3rem;
+    color:#949C88;
+    width: 6rem;
+}
+.find-button{
+    /*background-color: #B67138;*/
+
+    background-color: #8186A9;
+    width: 7rem;
+    font-size: 16px ;
+    font-weight: bold;
+    color: #E5EFED;
+}
+@media (max-width: 600px) {
+    .find-container-form {
+        flex-direction: column; 
+        justify-content: space-between;/* Stack elements vertically on smaller screens */
+        align-items: center; /* Center items when stacked vertically */
+    }
+    .departure-input,
+    .destination-input,
+    .min-price-select,
+    .max-price-select
+    {
+        width: 100%; /* Make elements take full width on smaller screens */
+        margin: 5px;
+    }
+}
