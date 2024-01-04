@@ -24,11 +24,11 @@ The app offers a range of travel deals and allows users to search for specific d
 ![Homepage](/homepage.jpeg)
 
 ### 2. Search Functionality
-![Search](screenshots/search.jpeg)
+![Search](/search.jpeg)
 
 ### 3. Navigation
-![About Page](screenshots/about.png)
-![SignUp Page](screenshots/signup.jpeg)
+![About Page](/about.png)
+![SignUp Page](/signup.jpeg)
 
 ### 4. Responsive Design
 ![Desktop View](/desktop-view.png)
